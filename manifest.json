@@ -1,0 +1,25 @@
+{
+   "name":"Sync Demo 2",
+   "icon":"calendar-active",
+   "description":".",
+   "background":"green",
+   "configTypes":[
+      {
+         "name":"syncUrl",
+         "type":"text",
+         "label":"Sync Url",
+         "required":true,
+         "path":"syncUrl"
+      },
+      {
+         "name": "video",
+         "type": "video",
+         "multiItem": false,
+         "label": "Video",
+         "required": true,
+         "path": "video"
+      }
+   ],
+   "config":{
+   }
+}
